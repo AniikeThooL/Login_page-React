@@ -2,15 +2,15 @@ import React, { useState } from "react";
 import "../Pages/ANI.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEye, faEyeSlash } from "@fortawesome/free-solid-svg-icons";
-import img0 from "/Users/hp/Desktop/TODOapp/example/src/Assets/Vector.png";
-import img1 from "/Users/hp/Desktop/TODOapp/example/src/Assets/Vector-1.png";
-import img2 from "/Users/hp/Desktop/TODOapp/example/src/Assets/Property 1=Variant3.png";
-import img3 from "/Users/hp/Desktop/TODOapp/example/src/Assets/Property 1=Variant5.png";
-import img4 from "/Users/hp/Desktop/TODOapp/example/src/Assets/Property 1=Default.png";
-import img5 from "/Users/hp/Desktop/TODOapp/example/src/Assets/open-message-box.png";
-import img6 from "/Users/hp/Desktop/TODOapp/example/src/Assets/Property 1=With-glass-hidden.png";
-import img7 from "/Users/hp/Desktop/TODOapp/example/src/Assets/Property 1=Variant7.png";
-import img8 from "/Users/hp/Desktop/TODOapp/example/src/Assets/Property 1=glasses-on.png";
+import img0 from "./Assets/Vector.png";
+import img1 from "./Assets/Vector-1.png";
+import img2 from "./Assets/Property 1=Variant3.png";
+import img3 from "./Assets/Property 1=Variant5.png";
+import img4 from "./Assets/Property 1=Default.png";
+import img5 from "./Assets/open-message-box.png";
+import img6 from "./Assets/Property 1=With-glass-hidden.png";
+import img7 from "./Assets/Property 1=Variant7.png";
+import img8 from "./Assets/Property 1=glasses-on.png";
 
 const ANI = () => {
   const [currentImage, setCurrentImage] = useState(img2);
